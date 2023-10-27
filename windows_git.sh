@@ -2,8 +2,8 @@
 echo Running Auto Git
 python auto_git.py
 current_date_time="`date +%Y%m%d%_H%M%S`"
-pushing_branch = "main"
-target_branch = "main"
+pushing_branch="main"
+target_branch="main"
 echo $pushing_branch
 git add .
 git commit -m $current_date_time
